@@ -12,13 +12,19 @@ Link to demo: (https://drive.google.com/file/d/1T4SQQNGbqqou2BDzk9Ygw3cmNkms0E4v
 ## Installation
 
 1.Clone the repository: git clone <repository-url>
+
 2.Navigate to the project directory: cd blog
+
 3.Install dependencies:
 .Backend: cd backend && npm install
 .Frontend: cd frontend && npm install
+
 4.Configure environment variables for authentication and database connection.
-5.Start the backend server: cd backend && npm start
-6.Start the frontend development server: cd frontend && npm start
+
+5.Start the backend server: cd backend && npm run dev.
+
+6.Start the frontend development server: cd frontend && npm start.
+
 7.Access the application at http://localhost:3000 in your web browser.
     
 ## Screenshots
@@ -38,8 +44,11 @@ Link to demo: (https://drive.google.com/file/d/1T4SQQNGbqqou2BDzk9Ygw3cmNkms0E4v
 ## Tech Stack
 
 1.Node.js: Backend server environment for building the RESTful API and handling authentication logic.
+
 2.React.js: Frontend JavaScript library for building dynamic and interactive user interfaces.
+
 3.JavaScript: Programming language used for both frontend and backend development.
+
 4.Bootstrap: CSS framework for designing responsive and visually appealing web pages.
 
 ## Deployment
@@ -59,7 +68,9 @@ To deploy this project run
 
 ## Usage
 Register a new account or log in with existing credentials.
+
 Create, edit, and delete blog posts.
+
 Log out when done to securely end the session.
 
 
